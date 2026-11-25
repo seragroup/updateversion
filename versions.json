@@ -2,6 +2,16 @@
   {
     "name": "FPMachine",
     "version": "1.0.0.19",
-    "url": "https://github.com/seragroup/updateversion/releases/download/fpmachine1/FPMachine.exe"
+    "url": "https://github.com/seragroup/updateversion/releases/download/fpmachine1/FPMachine.exe",
+    "extraFiles": [
+      {
+        "name": "Newtonsoft.Json.dll",
+        "url": "https://github.com/seragroup/updateversion/releases/download/fpmachine1/Newtonsoft.Json.dll"
+      },
+      {
+        "name": "config/settings.json",
+        "url": "https://github.com/seragroup/updateversion/releases/download/fpmachine1/settings.json"
+      }
+    ]
   }
 ]
